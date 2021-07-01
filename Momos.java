@@ -4,6 +4,5 @@ class Momos extends Food
 	{
 		System.out.println("Momos Object is created");
 	}
-
 	
 }
