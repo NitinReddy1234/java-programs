@@ -1,0 +1,70 @@
+class EngineerTester{
+	
+	public static void main(String a[]){
+		Engineer engineer=new Engineer();
+		engineer.setUSN("USN changes with branch");
+		engineer.problemSolving();
+		System.out.println(engineer.getUSN());
+		System.out.println("---------------------------------------------------------------------");
+		CSEngineer cs =new CSEngineer();
+		cs.setUSN("3VC16CS054");
+		System.out.println(cs.getBranch());
+		System.out.println(cs.getUSN());
+		cs.problemSolving();
+		cs.coding();
+		System.out.println("---------------------------------------------------------------------");
+		CivilEngineer cv =new CivilEngineer();
+		cv.setUSN("3VC16CV054");
+		System.out.println(cv.getBranch());
+		System.out.println(cv.getUSN());
+		cv.problemSolving();
+		cv.construction();
+		System.out.println("---------------------------------------------------------------------");
+		ISEngineer IS =new ISEngineer();
+		IS.setUSN("3VC16CV054");
+		System.out.println(IS.getBranch());
+		System.out.println(IS.getUSN());
+		IS.problemSolving();
+		IS.programming();
+		System.out.println("---------------------------------------------------------------------");
+		ETCEngineer etc =new ETCEngineer();
+		etc.setUSN("3VC16CV054");
+		System.out.println(tc.getBranch());
+		System.out.println(tc.getUSN());
+		tc.problemSolving();
+		tc.telephoneServices();
+		System.out.println("---------------------------------------------------------------------");
+		ECEngineer EC =new ECEngineer();
+		EC.setUSN("3VC16CV054");
+		System.out.println(EC.getBranch());
+		System.out.println(EC.getUSN());
+		EC.problemSolving();
+		EC.electronicEquipment();
+		System.out.println("---------------------------------------------------------------------");
+		EEEEngineer EEE =new EEEEngineer();
+		EEE.setUSN("3VC16CV054");
+		System.out.println(EEE.getBranch());
+		System.out.println(EEE.getUSN());
+		EEE.problemSolving();
+		EEE.designCircuits();
+		
+		System.out.println("********************************************************");
+		Engineer eng=new CSEngineer();
+		System.out.println(eng.getBranch());
+		System.out.println("*********************************************************");
+		Engineer eng1=new CivilEngineer();
+		System.out.println(eng1.getBranch());
+		System.out.println("**********************************************************");
+		Engineer eng3=new ISEngineer();
+		System.out.println(eng3.getBranch());
+		System.out.println("************************************************");
+		Engineer eng4=new ETCEngineer();
+		System.out.println(eng4.getBranch());
+		System.out.println("*************************************************");
+		Engineer eng5=new ECEngineer();
+		System.out.println(eng5.getBranch());
+		System.out.println("****************************************************");
+		Engineer eng6=new EEEEngineer();
+		System.out.println(eng6.getBranch());
+		
+		}
